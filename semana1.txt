@@ -1,0 +1,54 @@
+1. Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.
+    
+    1.Inicio
+    
+     2.Encender mi computador.
+    
+      a. Encender mi laptop
+    
+        i. Esperar a que cargue por completo la sesión 
+    
+      b. Encender mi monitor
+    
+     3.Abrir el navegador
+    
+     4.Buscar la pestaña de Youtube
+    
+     5.Escribir el video que quiero ver
+    
+     6.Cerrar la ventana de Youtube
+    
+     7.Cerrar el navegador.
+    
+     8.Apagar mi computador
+    
+    9.Fin
+    
+
+Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones multiples y ciclos.
+
+1. Inicio
+2. Alistarme para trabajar desde temprano
+3. Si es de lunes a viernes:
+    1. Levantarse a las 4:00 por se empieza a las 5:00 am
+4. Sino, si es sábado o domingo:
+    1. Toca levantarse más tarde
+5. Entrenar
+6. Si es lunes ó miércoles:
+    1. No se entrena tren inferior
+7. Sino, se puede entrenar tren inferior
+8. Almorzar
+9. Si, Mientras que sea martes, jueves o viernes:
+    1. Se puede descansar despues de almuerzo.
+10. Sino, entonces estudiar programación
+    1. Realizar refuerzo de temas pendientes
+11. Sino, realizar tareas de la U
+    1. Realizar las más prioritarias
+12. Mientras sea martes, jueves o viernes:
+    1. Asistir a clases
+13. Por cada lunes y miércoles trabajados hasta noche:
+    1. LLegar a casa a cenar algo ligero
+    2. Alistarse para dormir
+    3. Dormir menos horas de lo normal
+14. Dormir
+15. Fin
