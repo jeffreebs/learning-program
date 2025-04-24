@@ -1,0 +1,138 @@
+Cree un pseudocódigo que le pida un `precio de producto` al usuario, calcule su descuento y muestre el precio final tomando en cuenta que:
+
+- Si el precio es menor a 100, el descuento es del 2%.
+- Si el precio es mayor o igual a 100, el descuento es del 10%.
+
+1.Inicio
+
+2.Definir precio_producto
+
+3.Definir descuento
+
+4.Definir precio_final
+
+5.Mostrar “Ingrese el precio del producto: “
+
+6.Pedir precio_producto
+
+7.Si (precio_producto < 100 ) entonces:
+
+i.descuento = precio_producto * 0.02
+
+8.sino:
+
+i.descuento = precio_producto * 0.1
+
+9.Finsi
+
+10.precio_final = precio_producto - descuento
+
+11.Mostrar “El precio total a pagar es de : “
+
+12.Mostrar precio_final
+
+13.Fin
+
+Cree un pseudocódigo que le pida un `tiempo en segundos` al usuario y calcule si es menor o mayor a 10 minutos. Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. Si es mayor, muestre “*Mayor*”.
+
+1. Inicio
+2. Definir tiempo_segundos
+3. Definir segundos_faltantes
+4. Mostrar “Ingrese el tiempo en segundos :  “
+5. Pedir tiempo_segundos
+6. Si (tiempo_segundos < 600) entonces:
+    1. segundos_faltantes = tiempo_segundos - 600
+7. Sino:
+    1. Mostrar “ Es mayor “
+8. Finsi
+9. Fin
+
+Cree un algoritmo que le pida un numero al usuario, y realice una suma de cada numero del 1 hasta ese número ingresado. Luego muestre el resultado de la suma.
+
+1. Inicio
+2. Definir contador
+3. Definir suma
+4. Definir N
+5. Mostrar “Digite un numero hasta el que quiera que finalice la suma : “
+6. Pedir N
+7. Mientras ( contador ≤ N) hacer:
+    1. suma = suma + contador
+    2. contador = contador + 1
+
+8.FinMientras
+
+9.Mostrar “El resultado de la suma de los numeros hasta el numero ingresado es : “
+
+10.Mostrar suma
+
+11.Fin
+
+<aside>
+💡
+
+**Ejercicios Extra**
+
+</aside>
+
+Cree un algoritmo que le pida 2 números al usuario, los guarde en dos variables distintas (`primero` y `segundo`) y los ordene de menor a mayor en dichas variables.
+
+1. Inicio
+2. Definir n1
+3. Definir n2
+4. Mostrar “Digite el primer numero : “
+5. Pedir n1
+6. Mostrar “Digite el segundo numero : “
+7. Pedir n2
+8. Si (n1 > n2) entonces:
+    1. Mostrar “Los numeros ingresados de mayor a menor son : “
+    2. Mostrar n1 “y” n2
+9. Sino:
+    1. Si ( n2> n1 ) entonces:
+        1. Mostrar “Los numeros ingresados de mayor a menor son: “
+        2. Mostrar n2  “ y “  n1
+    
+     b. Sino:
+    
+    1. Mostrar “ Ambos numeros son iguales “
+10. FinSi
+11. Fin
+
+1. Cree un algoritmo que le pida al usuario una velocidad en km/h y la convierta a m/s. Recuerda que `1 km == 1000m` y `1 hora == 60 minutos * 60` 
+
+1. Inicio
+2. Definir velocidad
+3. Definir m/s
+4. Mostrar “Digite los km/h que desea convertir a m/s : “
+5. Pedir velocidad
+6. m/s = (velocidad * 100) / 3600
+7. Mostrar “  Los km/h que ingresó equivalen a : “
+8. Mostrar m/s “metros por segundo “
+9. Fin
+
+1. Cree un algoritmo que le pregunte al usuario por el sexo de 6 personas, ingresando 1 si es mujer o 2 si es hombre, y muestre al final el porcentaje de mujeres y hombres.
+
+1. Inicio
+2. Definir num
+3. Definir contador
+4. Definir porcentaje_hombre
+5. Definir porcentaje_mujer
+6. Definir contador_mujer
+7. Definir contador_hombre
+8. Mientras ( contador < 6) hacer:
+    1. Mostrar “Digite 1 para mujer o 2 para hombre : “
+    2. Pedir num
+    3. Si ( num = 1) entonces:
+        1. contador_mujer = contador_mujer + 1
+    4. Sino:
+        1. Si ( num = 2 ) entonces:
+            1. contador_hombre = contador_hombre +1
+        2. Sino:
+            1. Mostrar “Numero incorrecto, digite 1 o 2”
+        3. FinSi
+    5. contador = contador + 1
+9. FinMientras
+10. porcentaje_mujer = ( contador_mujer / 6 ) *100
+11. porcentaje_hombre = (contador_hombre / 6) *100
+12. Mostrar “El porcentaje de hombres y mujeres es: “
+13. Mostrar porcentaje_hombre, porcentaje_mujer
+14. Fin
