@@ -1,0 +1,24 @@
+my_dream_cars = ["Toyota", "Ford", "BMW", "Nissan"]
+
+def add_brand():
+    my_dream_cars.append("Baic")
+    my_dream_cars.append("Suzuki")
+    my_dream_cars.append("Mazda")
+    print (my_dream_cars)
+
+def deleted_car():
+    my_dream_cars.pop(1)
+    my_dream_cars.pop(3)
+    print(my_dream_cars)
+
+def duplicated_car():
+    duplicated = my_dream_cars * 2
+    for car in duplicated:
+        print (car)
+
+def main():
+    add_brand()
+    deleted_car()
+    duplicated_car()
+
+main()
